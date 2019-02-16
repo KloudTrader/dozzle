@@ -26,6 +26,7 @@
  "dependencies": {
   "bulma": "^0.7.4",
   "date-fns": "^2.0.0-alpha.25",
+  "typeface-lato": "0.0.54",
   "vue": "^2.6.6",
   "vue-headful": "^2.0.1",
   "vue-router": "^3.0.2"

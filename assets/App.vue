@@ -9,7 +9,7 @@
       >
         <span></span> <span></span> <span></span>
       </a>
-      <h1 class="title has-text-warning is-marginless">Dozzle</h1>
+      <h1 class="title has-text-warning is-marginless kloudtrader">KloudTrader</h1>
       <p class="menu-label is-hidden-mobile" :class="{ 'is-active': showNav }">Containers</p>
       <ul class="menu-list is-hidden-mobile" :class="{ 'is-active': showNav }">
         <li v-for="item in containers">
@@ -61,6 +61,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.kloudtrader {
+  color: #e1ca96 !important;
+}
+
 .is-hidden-mobile.is-active {
   display: block !important;
 }
